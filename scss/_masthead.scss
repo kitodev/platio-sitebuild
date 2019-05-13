@@ -1,0 +1,43 @@
+// Styling for the masthead
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - #{$navbar-height});
+  // replace the masthead.jpg image in the /img directory to change the image
+  // if the image name change, make sure to update the url path below!
+  background: linear-gradient(to bottom, #{fade-out($liner-black, .7)} 0%,#{fade-out($liner-black, .7)} 100%), url('../img/hero-1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  h1 {
+    font-size: 48px;
+    letter-spacing: 10px;
+    font-weight:400;
+  }
+  @include media-breakpoint-up(lg) {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: $navbar-height;
+    padding-bottom: 0;
+    p {
+      font-size: 19px;
+      line-height: 1.5rem;
+    }
+    h1 {
+      font-size: 48px;
+    }
+  }
+  @include media-breakpoint-up(xl) {
+    h1 {
+      font-size: 48px;
+    }
+  }
+  @include media-breakpoint-down(xs) {
+    .nexa-bold {
+      font-size:24px;
+    }
+    h1 {
+      font-size: 24px;
+    }
+  }
+}

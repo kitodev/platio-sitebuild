@@ -1,0 +1,12 @@
+@import "_mixins-css3";
+/* fonts START */
+
+
+// NexaLight
+@include css3-font-face('NexaLight', 'NexaLight');
+
+// OpenSans-Regular
+@include css3-font-face('NexaW01-XBold', 'NexaW01-XBold');
+
+
+/* fonts END */

@@ -1,0 +1,19 @@
+@import "_fonts";
+
+// Load Fonts
+
+$default-font-family-WEBSAFE-1:		Arial, Helvetica, sans-serif;
+$default-font-family-WEBSAFE-2:		"Times New Roman", Times, serif;
+
+$default-font-family-1-LIGHT:		'NexaLight', $default-font-family-WEBSAFE-1;
+$default-font-family-1-BOLD:		'NexaW01-XBold', $default-font-family-WEBSAFE-1;
+
+// Custom variables
+$navbar-height: 72px;
+
+// Set a custom color
+$orange: #f4623a !default;
+$liner-black: #000 !default;
+
+// Set primary color to orange
+$primary: $orange !default;

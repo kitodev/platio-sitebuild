@@ -1,0 +1,58 @@
+// Styling for the portfolio section
+#portfolio {
+  .container-fluid {
+    max-width: 1920px;
+    .portfolio-box {
+      position: relative;
+      display: block;
+      .portfolio-box-caption {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 63px 54px;
+        width: 100%;
+        height: 100%;
+
+        position: absolute;
+        bottom: 0;
+
+        text-align: center;
+        opacity: 0;
+
+        color: $black;
+        background: fade-out($white, .25);
+        transition: opacity 0.25s ease;
+        text-align: center;
+        .project-category {
+            h4 {
+              font-size: 18px;
+              font-family: $default-font-family-1-BOLD;
+              font-weight: 600;
+              text-transform: uppercase;
+              letter-spacing: 1px;
+              color:$black;
+            }
+        }
+        .project-name {
+          font-size: 14px;
+          font-family: $default-font-family-1-LIGHT;
+        }
+        .project-button {
+            button {
+              border-radius:0;
+              font-family: $default-font-family-1-BOLD;
+              font-weight: 600;
+              font-size:12px;
+              text-transform: uppercase;
+            }
+        }
+      }
+      &:hover {
+        .portfolio-box-caption {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
