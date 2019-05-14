@@ -4,6 +4,11 @@
   background-color: $white;
   transition: background-color 0.2s ease;
   height:72px;
+  .navbar-expand-lg{
+    .navbar-nav {
+      align-items: center;
+    }
+  }
   .navbar-brand {
     font-family: $default-font-family-1-LIGHT;
     color: $gray-900;
@@ -34,6 +39,7 @@
     // Base styling for the navbar - screen sizes greater than the large breakpoint
     box-shadow: none;
     background-color: $header-transparent-bg;
+
     .navbar-brand {
       color: fade-out($black, .3);
       &:hover {
@@ -48,6 +54,7 @@
       }
     }
     .navbar-nav {
+      align-items: center;
       .nav-item {
         .nav-link {
           color: fade-out($black, .3);

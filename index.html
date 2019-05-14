@@ -68,6 +68,42 @@
     </div>
   </header>
 
+  <!-- About Us Section -->
+  <section class="page-section bg-cream p-0" style="background-color: #e9e5e2;" id="technology2">
+    <div class="container-fluid">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-6 mb-4 mt-4 align-self-baseline">
+          <p class="nexa-bold-size">The Platio Solar Pavement units are made of
+            walkable solar tiles mounted on recycled plastic paving slabs</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <img style="width:386px; height: 251px" src="img/imgpsh_mobile_save2.png" class="img-fluid" alt="imgpsh_mobile_save2">
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center mb-4 mt-4">
+          <p>Colour options</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 d-flex no-gutters justify-content-center">
+          <div class="col-md-2 ml-3 col-lg-2"><img class="img-fluid custom-img" src="img/black.png" alt=""></div>
+          <div class="col-md-2 ml-3 col-lg-2"><img class="img-fluid custom-img" src="img/blue.png" alt=""></div>
+          <div class="col-md-2 ml-3 col-lg-2"><img class="img-fluid custom-img" src="img/red.png" alt=""></div>
+          <div class="col-md-2 ml-3 col-lg-2"><img class="img-fluid custom-img" src="img/green.png" alt=""></div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center mb-4 mt-4">
+          <a class="btn btn-light-dark btn-xl js-scroll-trigger mr-3" data-toggle="modal" data-target="#exampleModal" href="#downloads">downloads</a>
+          <a class="btn btn-light-dark btn-xl js-scroll-trigger ml-3" href="#more info">more info</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
 <!--  &lt;!&ndash; Services Section &ndash;&gt;-->
 <!--  <section class="page-section" id="services">-->
 <!--    <div class="container-fluid">-->
@@ -500,7 +536,72 @@
       </div>
     </div>
   </footer>
-
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Downloads</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <form class="custom-form">
+                  <div class="form-group text-center">
+                    <label for="formGroupExampleInput" class="text-center nexa-bold-size">Learn more about Platio!</label>
+                    <input type="text" class="form-control" id="formGroupName" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="formGroupEmail" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="formGroupCountry" placeholder="Country">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="formGroupCompany" placeholder="Company (Optional)">
+                  </div>
+                  <div class="form-group">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="downloadModal">
+                      <label class="custom-control-label" for="downloadModal">Download <span class="nexa-bold-size">Info kit (Brochure, Datasheet)</span></label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="download2Modal">
+                      <label class="custom-control-label" for="download2Modal">Download <span class="nexa-bold-size">Architect Kit</span></label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="architectModal">
+                      <label class="custom-control-label" for="architectModal">Subscribe on Platio Newsletter</label>
+                    </div>
+                  </div>
+                  <div class="form-group text-center">
+                    <button class="btn btn-bordered text-uppercase" type="submit">Download</button>
+                  </div>
+                </form>
+              </div>
+              <div class="col-md-6">
+                <form class="custom-form">
+                  <div class="form-group text-center">
+                    <label class="text-center nexa-bold-size">Send a message!</label>
+                    <input type="text" id="formGroupMsg" class="form-control" placeholder="Subject">
+                  </div>
+                  <div class="form-group">
+                    <textarea id="textarea" rows="9" class="form-control mb-4" placeholder="Textarea"></textarea>
+                  </div>
+                  <div class="form-group text-center">
+                    <button class="btn btn-bordered text-uppercase" type="submit">Send</button>
+                  </div>
+                </form>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
