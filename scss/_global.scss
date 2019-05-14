@@ -1,5 +1,6 @@
 // Global styling for this template
 $header-transparent-bg: fade_out($white, .25);
+$bg-white-opacity: rgba($white, .85);
 
 body,
 html {
@@ -36,6 +37,8 @@ header {
     }
   }
 }
+
+
 
 .btn-xl {
   padding: 10px 10px;
